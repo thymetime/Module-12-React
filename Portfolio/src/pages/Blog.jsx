@@ -1,22 +1,57 @@
 export default function Blog() {
   return (
-    <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
-    </div>
+    <content id="projects" class="projects">
+        <h2 class="proj-intro" id="proj-intro"><span>My Projects</span></h2>
+        <div class="proj-container">
+            <a
+            href="https://www.artsy.net/artwork/uta-barth-field-number-9"
+            class="proj-link"
+            id="proj-link-1">
+                <img src="https://live.staticflickr.com/3318/3522362392_6621b6c2be_b.jpg" alt="Amy Doing Makeup" class="proj-img" />
+                <p class="proj-title"><span>Project One</span></p>
+            </a>
+
+            <a
+            href="Quid-pro-quo.html"
+            class="proj-link"
+            id="proj-link-2">
+                <img src="Piety_OlyadKitila.jpg" alt="Amy Doing Makeup" class="proj-img" />
+                <p class="proj-title"><span>Project Two</span></p>
+            </a>
+
+            <a
+            href="navbar.html"
+            class="proj-link"
+            id="proj-link-3">
+                <img src="AYE_signs.jpg" alt="Amy Doing Makeup" class="proj-img" />
+                <p class="proj-title"><span>Project Three</span></p>
+            </a>
+
+            <a
+            href="freecodecamp_technical.html"
+            class="proj-link"
+            id="proj-link-4">
+                <img src="IMG_1385.png" alt="Amy Doing Makeup" class="proj-img" />
+                <p class="proj-title"><span>Avert Your Eyes</span></p>
+            </a>
+            
+            <a
+            href="freecodecamp_technical.html"
+            class="proj-link"
+            id="proj-link-5">
+                <img src="_DSC1842.jpg" alt="Amy Doing Makeup" class="proj-img" />
+                <p class="proj-title"><span>Avert Your Eyes</span></p>
+            </a>
+
+            <a
+            href="freecodecamp_technical.html"
+            class="proj-link"
+            id="proj-link-6">
+                <img src="_DSC5917.jpg" alt="Amy Doing Makeup" class="proj-img" />
+                <p class="proj-title"><span>Avert Your Eyes</span></p>
+            </a>
+
+        </div>
+    </content>
   );
 }
