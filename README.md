@@ -1,4 +1,8 @@
-# 20 React: React Portfolio
+# 12 React: React Portfolio
+
+## Olyad's Portfolio
+
+As a software engineer and visual artist, I created a portfolio that showcases both of my passions while remaining intuitive and aesthetically appealing.
 
 ## Your Task
 
