@@ -71,7 +71,7 @@ img {
 }
 
 /* -- HERO -- */
-
+/* 
 .hero-page {
     height: 100vh;
     display: flex;
@@ -96,11 +96,6 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     filter: blur(4px) opacity(1) ;
-}
-
-.hero--container {
-    /* width: 70%; */
-    /* padding: 2rem; */
 }
 
 .hero--title {
@@ -140,7 +135,7 @@ img {
 .hero--btn:hover {
     transform: translateY(10px);
     transition: .25s;
-}
+} */
 
 /* -- BIO -- */
 
@@ -205,6 +200,12 @@ img {
     box-shadow: 0px 4px 4px 4px rgba(0,0,0,.2);
     filter: saturate(100%);
 }
+
+/* -- CONTACT FOOTER -- */
+.contact-section--links > * {
+    padding: 1rem;
+}
+
 
 /* -- PROJECTS -- */
 
@@ -278,6 +279,7 @@ img {
     color: var(--main-white);
     padding: 2rem .5rem;
 }
+
 
 /* -- BOOTCAMP CODE -- */
 

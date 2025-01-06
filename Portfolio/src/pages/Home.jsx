@@ -31,7 +31,6 @@ export default function Home() {
       <section id="contact" class="contact-section">
           <content class="contact-section--header">
               <h2>Let's work together...</h2>
-              <p>How do you like your coffee?</p>
           </content>
           <div class="contact-section--links">
               <a 
