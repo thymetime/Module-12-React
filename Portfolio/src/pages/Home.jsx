@@ -1,14 +1,14 @@
 export default function Home() {
   return (
     <div>
-      <header class="hero-page" id="hero">
+      {/* <header class="hero-page" id="hero">
           <div class="hero--container">
               <h1 class="hero--title hero--title__name">Olyad Kitila</h1>
               <h1 class="hero--title hero--title__wd">Web Developer</h1>
               <h2 class="hero--intro">coding one &#60;div&#62; at a time</h2>
               <button class="hero--btn">&#8595;</button>
           </div>
-      </header>
+      </header> */}
       <section id="bio" class="bio-page">
           <content class="bio-info">
               <div class="bio-info--cont">
@@ -24,7 +24,7 @@ export default function Home() {
               </div>
               <h3 class="bio-info--prompt">Check out some of my projects below!</h3>
           </content>
-          <img src="../src/assets/IMG_4217.JPG" alt="Olyad Kitila, Developer." id="bio-img" class="bio-img" />
+          <img src="../assets/IMG_4217.JPG" alt="Olyad Kitila, Developer." id="bio-img" class="bio-img" />
           
       </section>
       
@@ -35,25 +35,25 @@ export default function Home() {
           </content>
           <div class="contact-section--links">
               <a 
-              href="https://twitter.com/"
+              href="https://github.com/thymetime"
               target="_blank"
               class="contact-link"
-              id="contact-twitter">
-              <i class="fab fa-twitter-square"></i>
-              <span class="contact-names">Twitter</span>
+              id="contact-github">
+              <i class="fab fa-github-square"></i>
+              <span class="contact-names">Github</span>
               </a>
 
               <a 
-              href="https://facebook.com/"
+              href="https://www.linkedin.com/in/olyad-kitila-366a1218b/"
               target="_blank"
               class="contact-link"
-              id="contact-facebook">
-              <i class="fab fa-facebook-square"></i>
-              <span class="contact-names">Facebook</span>
+              id="contact-linkedin">
+              <i class="fab fa-linkedin-square"></i>
+              <span class="contact-names">LinkedIn</span>
               </a>
 
               <a 
-              href="https://instagram.com/"
+              href="https://www.instagram.com/holy__field/"
               target="_blank"
               class="contact-link"
               id="contact-instagram">
