@@ -3,7 +3,7 @@ export default function About() {
     <main>
       <h1>Art Page</h1>
       <div class="gallery-container">
-        <img src="../src/assets/AYE_LandingImage.jpg"></img>
+        <img src="../public/assets/AYE_LandingImage.jpg"></img>
         <img src="../src/assets/riversea darker.png"></img>
         <img src="../src/assets/idkkkk.png"></img>
         <img src="../src/assets/Museum1.png"></img>
