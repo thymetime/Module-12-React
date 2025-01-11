@@ -4,7 +4,7 @@ export default function Code() {
         <h2 class="proj-intro" id="proj-intro"><span>My Projects</span></h2>
         <div class="proj-container">
             <a
-            href="car-patron-app.onrender.com"
+            href="https://car-patron-app.onrender.com"
             class="proj-link"
             id="proj-link-1">
                 <img src="../assets/coding/carpatron_ss.png" alt="CarPatron | Keep track of your car's maintenance" class="proj-img" />
@@ -28,7 +28,7 @@ export default function Code() {
             </a>
 
             <a
-            href="thymetime.github.io/aye"
+            href="https://thymetime.github.io/aye"
             class="proj-link"
             id="proj-link-4">
                 <img src="../assets/coding/aye_ss.png" alt="Avert Your Eyes website" class="proj-img" />
