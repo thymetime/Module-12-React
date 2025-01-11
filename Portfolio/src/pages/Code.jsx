@@ -31,7 +31,7 @@ export default function Code() {
             href="thymetime.github.io/aye"
             class="proj-link"
             id="proj-link-4">
-                <img src="aye_ss.png" alt="Avert Your Eyes website" class="proj-img" />
+                <img src="../assets/coding/aye_ss.png" alt="Avert Your Eyes website" class="proj-img" />
                 <p class="proj-title"><span>Avert Your Eyes</span></p>
             </a>
 
