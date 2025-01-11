@@ -24,7 +24,7 @@ export default function Home() {
               </div>
               <h3 class="bio-info--prompt">Check out some of my projects below!</h3>
           </content>
-          <img src="../assets/IMG_4217.JPG" alt="Olyad Kitila, Developer." id="bio-img" class="bio-img" />
+          <img src="../assets/art/IMG_4217.JPG" alt="Olyad Kitila, Developer." id="bio-img" class="bio-img" />
           
       </section>
       

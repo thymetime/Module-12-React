@@ -7,9 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './App';
 import Error from './pages/Error';
 import Home from './pages/Home';
-import Contact from './pages/Contact';
-import About from './pages/About';
-import Blog from './pages/Blog';
+import Art from './pages/Art';
+import Code from './pages/Code';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -23,17 +22,13 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: '/About',
-        element: <About />,
+        path: '/Art',
+        element: <Art />,
       },
       {
-        path: '/Blog',
-        element: <Blog />,
-      },
-      {
-        path: '/Contact',
-        element: <Contact />,
-      },
+        path: '/Code',
+        element: <Code />,
+      }
     ],
   },
 ]);
