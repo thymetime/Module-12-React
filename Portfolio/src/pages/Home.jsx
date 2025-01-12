@@ -10,6 +10,8 @@ export default function Home() {
           </div>
       </header> */}
       <section id="bio" class="bio-page">
+          <img src="../assets/bio/OlyadKitila_Headshot_Size.jpg" alt="Olyad Kitila, Developer." id="bio-img" class="bio-img" />
+
           <content class="bio-info">
               <div class="bio-info--cont">
                   <h2 class="bio--greeting">Hey there!</h2>
@@ -24,7 +26,6 @@ export default function Home() {
               </div>
               <h3 class="bio-info--prompt">Check out some of my projects below!</h3>
           </content>
-          <img src="../assets/art/IMG_4217.JPG" alt="Olyad Kitila, Developer." id="bio-img" class="bio-img" />
           
       </section>
       
