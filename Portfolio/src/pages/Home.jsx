@@ -1,12 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 export default function Home() {
-    let navigate = useNavigate(); 
-
-    const routeChange = (page) =>{ 
-        let path = `./${page}`; 
-        navigate(path);
-    }
+  let navigate = useNavigate();
 
   return (
     <div>
@@ -36,8 +31,11 @@ export default function Home() {
           </content>
 
           <h3 class="bio-info--prompt">Check out some of my projects below!</h3>
-          {/* <button onClick={routeChange('Code')}>Code</button> */}
-          {/* <button onClick={routeChange('Art')}>Art</button> */}
+          <div class="bio-info--action">
+            <button class="bio-info--action_link" onClick={() => navigate('./Code')}>Code</button>
+            <button class="bio-info--action_link" onClick={() => navigate('./Art')}>Art</button>
+          </div>
+          
 
           
       </section>

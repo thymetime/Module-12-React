@@ -196,6 +196,32 @@ img {
     color: var(--main-purple);
 }
 
+.bio-info--action {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.bio-info--action_link {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 100px;
+    background-color: var(--main-blue);
+    color: var(--main-white);
+    border: none;
+    transition: .25s
+}
+
+.bio-info--action_link:hover {
+    border: 2px solid var(--main-blue);
+    background-color: var(--main-white);
+    color: var(--main-blue)
+}
+
+
 #bio-img {
     display: block;
     width: 60%;
@@ -205,6 +231,7 @@ img {
     border-radius: 50%;
     box-shadow: 0px 4px 4px 4px rgba(0,0,0,.2);
 }
+
 
 @media (min-width: 1024px) {
     .bio-page {
@@ -224,6 +251,9 @@ img {
         margin: 0 5rem;
     }
 
+    .bio-info--action {
+        width: 80%;
+    }
 
     
 }
