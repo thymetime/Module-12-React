@@ -1,7 +1,8 @@
-main {
+.art-container {
     width: 85%;
     justify-self: center;
 }
+
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 2fr));
