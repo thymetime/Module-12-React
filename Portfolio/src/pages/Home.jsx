@@ -1,4 +1,13 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Home() {
+    let navigate = useNavigate(); 
+
+    const routeChange = (page) =>{ 
+        let path = `./${page}`; 
+        navigate(path);
+    }
+
   return (
     <div>
       {/* <header class="hero-page" id="hero">
@@ -10,11 +19,11 @@ export default function Home() {
           </div>
       </header> */}
       <section id="bio" class="bio-page">
-          <img src="../assets/bio/OlyadKitila_Headshot_Size.jpg" alt="Olyad Kitila, Developer." id="bio-img" class="bio-img" />
 
           <content class="bio-info">
+              <img src="../assets/bio/OlyadKitila_Headshot_Size_Square.jpg" alt="Olyad Kitila, Developer." id="bio-img" class="bio-img" />
               <div class="bio-info--cont">
-                  <h2 class="bio--greeting">Hey there!</h2>
+                  <h2 class="bio--greeting">Hi, I'm Olyad.</h2>
                   <p class="bio--desc">Olyad Kitila is an ex-film major turned computer scientist who is always 
                       experimenting and manipulating new mediums to fit his aesthetic mold. 
                       Combining his process of iteration and knowledge of artistic practices, 
@@ -24,8 +33,12 @@ export default function Home() {
                       He currently lives and works in Columbia and Silver Spring, Maryland.
                   </p> 
               </div>
-              <h3 class="bio-info--prompt">Check out some of my projects below!</h3>
           </content>
+
+          <h3 class="bio-info--prompt">Check out some of my projects below!</h3>
+          {/* <button onClick={routeChange('Code')}>Code</button> */}
+          {/* <button onClick={routeChange('Art')}>Art</button> */}
+
           
       </section>
       
