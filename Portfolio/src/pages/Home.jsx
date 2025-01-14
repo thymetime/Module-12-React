@@ -19,9 +19,9 @@ export default function Home() {
               <img src="../assets/bio/OlyadKitila_Headshot_Size_Square.jpg" alt="Olyad Kitila, Developer." id="bio-img" class="bio-img" />
               <div class="bio-info--cont">
                   <h2 class="bio--greeting">Hi, I'm Olyad.</h2>
-                  <p class="bio--desc">Olyad Kitila is an ex-film major turned computer scientist who is always 
-                      experimenting and manipulating new mediums to fit his aesthetic mold. 
-                      Combining his process of iteration and knowledge of artistic practices, 
+                  <p class="bio--desc">Olyad Kitila is a computer scientist and artist who is always 
+                      experimenting and manipulating new technologies to solve problems. 
+                      Combining his process of iteration, experience in programming  knowledge of artistic practices, 
                       he creates art and code alike with an intent to enhance the viewer’s experience of everyday life.
                       <br></br>
                       <br></br>
