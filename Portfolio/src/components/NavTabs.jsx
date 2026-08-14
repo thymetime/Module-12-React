@@ -66,7 +66,7 @@ function NavTabs() {
         target="_blank"
         class="contact-link"
         id="contact-github">
-        <img src="dist/assets/social-icons/png/003-github.png"></img>
+        <img src="../assets/social-icons/png/003-github.png"></img>
         </a>
 
         <a 
@@ -74,7 +74,7 @@ function NavTabs() {
         target="_blank"
         class="contact-link"
         id="contact-linkedin">
-        <img src="dist/assets/social-icons/png/001-linkedin.png"></img>
+        <img src="../assets/social-icons/png/001-linkedin.png"></img>
         </a>
 
         <a 
@@ -82,7 +82,7 @@ function NavTabs() {
         target="_blank"
         class="contact-link"
         id="contact-instagram">
-        <img src="dist/assets/social-icons/png/002-instagram.png"></img>
+        <img src="../assets/social-icons/png/002-instagram.png"></img>
         </a>
       </ul>
       
