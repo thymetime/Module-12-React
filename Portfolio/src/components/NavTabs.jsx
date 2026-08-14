@@ -19,7 +19,7 @@ function NavTabs() {
             // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
             className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
           >
-            Work
+            WORK
           </Link>
         </li>
         <li className="nav-item_custom">
@@ -28,7 +28,7 @@ function NavTabs() {
             // Check to see if the currentPage is `Code`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
           >
-            About
+            ABOUT
           </Link>
         </li>
         <li className="nav-item_custom">
@@ -37,7 +37,7 @@ function NavTabs() {
             // Check to see if the currentPage is `Art`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
           >
-            Contact
+            CONTACT
           </Link>
         </li>
       </nav>
