@@ -23,7 +23,8 @@ override bootstrap CSS rules with the same name
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 2rem;
+    align-items: center;
+    height: 3rem;
 }
 
 /* Applies a right border to every child except the very last one */
@@ -53,5 +54,5 @@ override bootstrap CSS rules with the same name
 }
 
 .nav-link active {
-    color: slateblue;
+    color: slateblue !important;
 }
