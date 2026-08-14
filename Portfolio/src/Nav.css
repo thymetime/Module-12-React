@@ -22,18 +22,25 @@ override bootstrap CSS rules with the same name
 .nav-tabs_custom {
     display: flex;
     flex-direction: row;
-    width: 40%;
     justify-content: space-between;
+    padding: 2rem auto;
+}
+
+/* Applies a top margin to every child except the very first one */
+.nav-tabs_custom > * + * {
+  border-right: 1px solid black;
 }
 
 .nav-icons_custom {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .contact-icons {
     max-width: 50%;
+    height: auto;
 }
 
 .nav-item_custom {
