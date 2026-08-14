@@ -23,12 +23,11 @@ override bootstrap CSS rules with the same name
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 2rem auto;
 }
 
-/* Applies a top margin to every child except the very first one */
-.nav-tabs_custom > * + * {
-  border-right: 1px solid black;
+/* Applies a right border to every child except the very last one */
+.nav-tabs_custom > *:not(:last-child) {
+  border-bottom: 1px solid #ccc;
 }
 
 .nav-icons_custom {
@@ -45,6 +44,7 @@ override bootstrap CSS rules with the same name
 
 .nav-item_custom {
     font-size: 1.2rem;
+    padding: 2rem auto;
 }
 
 .nav-link {
