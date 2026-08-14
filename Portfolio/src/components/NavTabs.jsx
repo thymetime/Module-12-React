@@ -59,6 +59,32 @@ function NavTabs() {
           </Link>
         </li>
       </nav>
+
+      <ul class="social-section--links">
+        <a 
+        href="https://github.com/thymetime"
+        target="_blank"
+        class="contact-link"
+        id="contact-github">
+        <img src="Portfoliio/dist/assets/social-icons/png/003-github.png"></img>
+        </a>
+
+        <a 
+        href="https://www.linkedin.com/in/olyad-kitila-366a1218b/"
+        target="_blank"
+        class="contact-link"
+        id="contact-linkedin">
+        <img src="Portfoliio/dist/assets/social-icons/png/001-linkedin.png"></img>
+        </a>
+
+        <a 
+        href="https://www.instagram.com/no.plugins"
+        target="_blank"
+        class="contact-link"
+        id="contact-instagram">
+        <img src="Portfoliio/dist/assets/social-icons/png/002-instagram.png"></img>
+        </a>
+      </ul>
       
     </ul>
   );
