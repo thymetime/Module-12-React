@@ -1,3 +1,7 @@
+/* 
+btw: Using the 'custom' descriptor on some classes to help 
+override bootstrap CSS rules with the same name 
+*/ 
 .nav_custom {
     display: flex;
     flex-direction: row;
@@ -20,6 +24,17 @@
     flex-direction: row;
     width: 40%;
     justify-content: space-between;
+}
+
+.nav-icons_custom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-icons {
+    max-width: 50%;
+    max-height: 50%;
 }
 
 .nav-item_custom {

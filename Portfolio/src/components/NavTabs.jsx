@@ -60,13 +60,13 @@ function NavTabs() {
         </li>
       </nav>
 
-      <ul class="nav-tabs-custom">
+      <ul class="nav-icons_custom">
         <a 
         href="https://github.com/thymetime"
         target="_blank"
         class="contact-link"
         id="contact-github">
-        <img src="../assets/social-icons/png/003-github.png"></img>
+        <img class="contact-icons" src="../assets/social-icons/png/003-github.png"></img>
         </a>
 
         <a 
@@ -74,7 +74,7 @@ function NavTabs() {
         target="_blank"
         class="contact-link"
         id="contact-linkedin">
-        <img src="../assets/social-icons/png/001-linkedin.png"></img>
+        <img class="contact-icons" src="../assets/social-icons/png/001-linkedin.png"></img>
         </a>
 
         <a 
@@ -82,7 +82,7 @@ function NavTabs() {
         target="_blank"
         class="contact-link"
         id="contact-instagram">
-        <img src="../assets/social-icons/png/002-instagram.png"></img>
+        <img class="contact-icons" src="../assets/social-icons/png/002-instagram.png"></img>
         </a>
       </ul>
       
