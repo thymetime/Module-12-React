@@ -27,7 +27,7 @@ override bootstrap CSS rules with the same name
 
 /* Applies a right border to every child except the very last one */
 .nav-tabs_custom > *:not(:last-child) {
-  border-bottom: 1px solid #ccc;
+  border-right: 1px solid black;
 }
 
 .nav-icons_custom {
@@ -44,7 +44,7 @@ override bootstrap CSS rules with the same name
 
 .nav-item_custom {
     font-size: 1.2rem;
-    padding: 2rem auto;
+    padding: 0 2rem;
 }
 
 .nav-link {
