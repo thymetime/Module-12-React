@@ -15,20 +15,29 @@ function NavTabs() {
         <li className="nav-item_custom">
           <Link
             to="/"
-            // This is a conditional (ternary) operator that checks to see if the current page is "Work"
+            // This is a conditional (ternary) operator that checks to see if the current page is "About"
             // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
             className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
           >
-            WORK
+            ABOUT
           </Link>
         </li>
         <li className="nav-item_custom">
           <Link
-            to="/About"
+            to="/Code"
             // Check to see if the currentPage is `Code`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === '/Code' ? 'nav-link active' : 'nav-link'}
           >
-            ABOUT
+            CODE
+          </Link>
+        </li>
+        <li className="nav-item_custom">
+          <Link
+            to="/Art"
+            // Check to see if the currentPage is `Art`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={currentPage === '/Art' ? 'nav-link active' : 'nav-link'}
+          >
+            ART
           </Link>
         </li>
         <li className="nav-item_custom">
