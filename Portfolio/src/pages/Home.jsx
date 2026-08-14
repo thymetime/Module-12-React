@@ -64,7 +64,7 @@ export default function Home() {
               </a>
 
               <a 
-              href="https://www.instagram.com/holy__field/"
+              href="https://www.instagram.com/no.plugins"
               target="_blank"
               class="contact-link"
               id="contact-instagram">

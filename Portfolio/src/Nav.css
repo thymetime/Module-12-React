@@ -1,0 +1,31 @@
+.nav_custom {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-self: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-logo {
+    font-size: 3rem;
+}
+
+.nav-tabs_custom {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.nav-item {
+
+}
+
+.nav-link {
+
+}
+
+.nav-link active {
+
+}
