@@ -11,6 +11,7 @@ form {
 
 .form-item {
     font-size: 1.8rem;
+    text-align: left;
 }
 
 .form-item_title {
@@ -21,14 +22,22 @@ form {
 }
 
 .form-container {
-    display: flex;
-    flex-direction: row;
+    display: grid;
     width: 100%;
-    text-align: left;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: end;
+    gap: 1rem;
+
 }
 
 .form-item_input {
     margin-bottom: 3.6rem;
+}
+
+.form-item_submit {
+    text-align: center;
 }
 
 .submit-success {

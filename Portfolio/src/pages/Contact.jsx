@@ -23,18 +23,18 @@ export default function ContactForm() {
 
       <div class="form-container">
         <label for="name" class="form-item form-item_label">Name:</label>
-        <input type="text" name="name" class="form-item form-item_input" required/>
+        <input id="name" type="text" name="name" class="form-item form-item_input" required/>
 
         <label for="email" class="form-item form-item_label">Email:</label>
-        <input type="email" name="email" class="form-item form-item_input" required/>
+        <input id="email" type="email" name="email" class="form-item form-item_input" required/>
       </div>
       
       <label for="message" class="form-item form-item_label">Message:</label>
       <textarea label="Message" name="message" class="form-item form-item_input" required></textarea>
       
-      <button class="form-item" >Submit</button>
+      <button class="form-item form-item_submit" >Submit</button>
       <p 
-        className={{result} === "Success!"  ? 'submit-success' : 'submit-error'} type="submit">
+        className={{result} == 'Success!'  ? 'submit-success' : 'submit-error'} type="submit">
         {result}
       </p>
     </form>
