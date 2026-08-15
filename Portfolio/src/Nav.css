@@ -17,6 +17,7 @@ override bootstrap CSS rules with the same name
     font-size: 3.6rem;
     font-weight: 400;
     letter-spacing: 1px;
+    text-decoration: none;
 }
 
 .nav-tabs_custom {

@@ -9,8 +9,8 @@ function NavTabs() {
     <ul className="nav_custom">
 
       {/* Name for logo */}
-      <li id="nav-logo" className="nav-item_custom">
-        <Link to="/">
+      <li className="nav-item_custom">
+        <Link to="/" id='nav-logo'>
           Olyad Kitila
         </Link>      
       </li>
