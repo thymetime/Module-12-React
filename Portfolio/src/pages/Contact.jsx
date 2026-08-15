@@ -14,7 +14,7 @@ export default function ContactForm() {
     });
 
     const data = await response.json();
-    setResult(data.success ? "Success!" : "Error");
+    setResult(console.log(data.success ? "Success!" : "Error"));
   };
 
   return (
@@ -28,11 +28,11 @@ export default function ContactForm() {
       <label for="message" class="form-item form-item_label">Message:</label>
       <textarea label="Message" name="message" class="form-item form-item_input" required></textarea>
       
-      <button 
-        className={{result} === "Success!" ? 'submit-success' : 'submit-error'} type="submit">
-          Submit
-      </button>
-      <p>{result}</p>
+      <button>Submit</button>
+      <p 
+        className={{result} === "Success!"  ? 'submit-success' : 'submit-error'} type="submit">
+        {result}
+      </p>
     </form>
   );
 }
