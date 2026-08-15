@@ -19,10 +19,19 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={onSubmit}>
-      <input label="Name" type="text" name="name" required/>
-      <input label="Email" type="email" name="email" required/>
-      <textarea label="Message" name="message" required></textarea>
-      <button type="submit">Submit</button>
+      <label for="name" class="form-item form-item_label">Name:</label>
+      <input type="text" name="name" class="form-item form-item_input" required/>
+
+      <label for="email" class="form-item form-item_label">Email:</label>
+      <input type="email" name="email" class="form-item form-item_input" required/>
+
+      <label for="message" class="form-item form-item_label">Message:</label>
+      <textarea label="Message" name="message" class="form-item form-item_input" required></textarea>
+      
+      <button 
+        className={{result} === "Success!" ? 'submit-success' : 'submit-error'} type="submit">
+          Submit
+      </button>
       <p>{result}</p>
     </form>
   );

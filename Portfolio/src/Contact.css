@@ -1,7 +1,18 @@
 form {
     display: flex;
     flex-direction: column;
-    height: 400px;
+    width: 30%;
+    height: 100rem;
     justify-items: space-around;
     
+}
+
+form-item
+
+.submit-success {
+    color: greenyellow;
+}
+
+.submit-error {
+    color: red;
 }
