@@ -4,10 +4,18 @@ form {
     width: 30%;
     height: 100rem;
     justify-items: space-around;
-    
+    align-items: space-around;
+    justify-self: center;
+    margin: 0 auto;
+
+    font-size: 1.6rem;
 }
 
-form-item
+.form-item_title {
+    font-size: 2.2rem;
+    font-weight: 400px;
+
+}
 
 .submit-success {
     color: greenyellow;

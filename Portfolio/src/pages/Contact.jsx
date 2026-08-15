@@ -19,6 +19,8 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={onSubmit}>
+      <h2 class="form-item form-item_title">Let's work!</h2>
+
       <label for="name" class="form-item form-item_label">Name:</label>
       <input type="text" name="name" class="form-item form-item_input" required/>
 
