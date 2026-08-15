@@ -30,7 +30,7 @@ export default function ContactForm() {
       <label for="message" class="form-item form-item_label">Message:</label>
       <textarea label="Message" name="message" class="form-item form-item_input" required></textarea>
       
-      <button>Submit</button>
+      <button class="form-item" >Submit</button>
       <p 
         className={{result} === "Success!"  ? 'submit-success' : 'submit-error'} type="submit">
         {result}
