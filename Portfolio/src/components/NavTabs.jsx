@@ -20,6 +20,45 @@ function NavTabs() {
         </Link>      
       </li>
 
+      {/* <nav id="nav-dropdown">
+
+        <li class="nav-dropdown_about">
+            <Link
+              to="/"
+              className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+            >
+              ABOUT
+            </Link>            
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="nav-dropdown_sub-menu">
+              <li>
+                <Link
+                  to="/Code"
+                  className={currentPage === '/Code' ? 'nav-link active' : 'nav-link'}
+                >
+                  CODE
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/"
+                  className={currentPage === '/Code' ? 'nav-link active' : 'nav-link'}
+                >
+                  ART
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/"
+                  className={currentPage === '/Code' ? 'nav-link active' : 'nav-link'}
+                >
+                  CONTACT
+                </Link>
+              </li>
+            </ul>
+          </li>
+      </nav> */}
+
       <nav class="nav-tabs_custom">
         <li className="nav-item_custom">
           <Link

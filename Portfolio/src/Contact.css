@@ -2,7 +2,6 @@ form {
     display: flex;
     flex-direction: column;
     width: 30%;
-    height: 100rem;
     justify-items: space-around;
     align-items: space-around;
     justify-self: center;
