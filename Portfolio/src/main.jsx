@@ -9,6 +9,7 @@ import Error from './pages/Error';
 import Home from './pages/Home';
 import Art from './pages/Art';
 import Code from './pages/Code';
+import Contact from './pages/Contact'
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: '/code',
         element: <Code />,
+      },
+      {
+        path: '/contact',
+        element: <Contact />,
       }
     ],
   },
