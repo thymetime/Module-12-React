@@ -46,6 +46,7 @@ override bootstrap CSS rules with the same name
 
 .contact-icons {
     max-width: 50%;
+    min-width: 16px;
     height: auto;
 }
 
