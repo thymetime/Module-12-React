@@ -280,7 +280,7 @@ img {
     padding: 0 3rem;
 }
 
-.proj-intro:before,
+/* .proj-intro:before,
 .proj-intro:after {
     content:'';
     position: absolute;
@@ -299,7 +299,7 @@ img {
 
 .proj-intro:after {
     right: 0;
-}
+} */
 
 .proj-container {
     display: grid;
