@@ -5,8 +5,18 @@ import { Link, useLocation } from 'react-router-dom';
 function NavTabs() {
   const currentPage = useLocation().pathname;
 
+
+
+/* vvvvvv JS FOR DROPDOWN AHHHH vvvvvv */
+
+/* ^^^^^^ JS FOR DROPDOWN AHHHH ^^^^^^ */
+
+
   return (
+
     <ul className="nav_custom">
+      {/* .nav-links */}
+
 
       {/* Name for logo */}
       <li className="nav-item_custom">
@@ -15,7 +25,10 @@ function NavTabs() {
         </Link>      
       </li>
 
-      {/* <nav id="nav-dropdown">
+      {/* .links */}
+      {/* li a == .nav-link */}
+
+      <nav id="nav-dropdown">
 
         <li class="nav-dropdown_about">
             <Link
@@ -24,7 +37,8 @@ function NavTabs() {
             >
               ABOUT
             </Link>            
-            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <span class='bx bxs-chevron-down htmlcss-arrow arrow  '>v</span>
+            {/* nav-dropdown_sub-menu = "htmlCss-sub-menu sub-menu"> */}
             <ul class="nav-dropdown_sub-menu">
               <li>
                 <Link
@@ -36,23 +50,23 @@ function NavTabs() {
               </li>
               <li>
                 <Link
-                  to="/"
-                  className={currentPage === '/Code' ? 'nav-link active' : 'nav-link'}
+                  to="/Art"
+                  className={currentPage === '/Art' ? 'nav-link active' : 'nav-link'}
                 >
                   ART
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/"
-                  className={currentPage === '/Code' ? 'nav-link active' : 'nav-link'}
+                  to="/Contact"
+                  className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
                 >
                   CONTACT
                 </Link>
               </li>
             </ul>
           </li>
-      </nav> */}
+      </nav>
 
       <nav class="nav-tabs_custom">
         <li className="nav-item_custom">
