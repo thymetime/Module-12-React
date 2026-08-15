@@ -52,8 +52,9 @@ override bootstrap CSS rules with the same name
 
 }
 
-.nav-link active {
+.nav-link.active {
     color: slateblue !important;
+    font-weight: 400 !important;
 }
 
 
