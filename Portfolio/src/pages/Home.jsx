@@ -25,7 +25,7 @@ export default function Home() {
                       he creates art and code alike with an intent to enhance the viewer’s experience of everyday life.
                       <br></br>
                       <br></br>
-                      He currently lives and works in Columbia and Silver Spring, Maryland.
+                      Based in Silver Spring, MD.
                   </p> 
               </div>
           </content>
