@@ -1,6 +1,7 @@
 import './App.css'
 import './ArtPage.css'
 import './Nav.css'
+import './Contact.css'
 // Bringing in the required import from 'react-router-dom'
 import { Outlet } from 'react-router-dom';
 import Nav from './components/NavTabs';
