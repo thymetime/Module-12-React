@@ -42,12 +42,12 @@ override bootstrap CSS rules with the same name
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    min-width: 10rem;
+    min-width: 16rem;
 }
 
 .contact-icons {
     max-width: 50%;
-    min-width: 1.6rem;
+    min-width: 3.2rem;
     height: auto;
     margin: 1rem auto; 
 }
