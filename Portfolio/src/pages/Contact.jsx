@@ -19,14 +19,16 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={onSubmit}>
-      <h2 class="form-item form-item_title">Let's work!</h2>
+      <h2 class="form-item form-item_title">Let's work!</h2> 
 
-      <label for="name" class="form-item form-item_label">Name:</label>
-      <input type="text" name="name" class="form-item form-item_input" required/>
+      <div class="form-container">
+        <label for="name" class="form-item form-item_label">Name:</label>
+        <input type="text" name="name" class="form-item form-item_input" required/>
 
-      <label for="email" class="form-item form-item_label">Email:</label>
-      <input type="email" name="email" class="form-item form-item_input" required/>
-
+        <label for="email" class="form-item form-item_label">Email:</label>
+        <input type="email" name="email" class="form-item form-item_input" required/>
+      </div>
+      
       <label for="message" class="form-item form-item_label">Message:</label>
       <textarea label="Message" name="message" class="form-item form-item_input" required></textarea>
       

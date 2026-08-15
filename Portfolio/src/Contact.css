@@ -17,11 +17,18 @@ form {
     margin: 1.2rem;
 
     font-size: 2.4rem;
-    font-weight: 400px;
+    font-weight: 300px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
 }
 
 .form-item_input {
-    margin-bottom: 1.2rem;
+    margin-bottom: 3.6rem;
 }
 
 .submit-success {
