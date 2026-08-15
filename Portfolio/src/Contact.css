@@ -2,6 +2,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 30%;
+    min-width: 36rem;
     justify-items: space-around;
     align-items: space-around;
     justify-self: center;
@@ -36,6 +37,7 @@ form {
 
 .form-item_input {
     margin-bottom: 3.6rem;
+    width: 100%;
 }
 
 .form-item_submit {
