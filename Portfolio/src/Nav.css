@@ -24,12 +24,16 @@ override bootstrap CSS rules with the same name
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 3rem;
 }
 
 /* Applies a right border to every child except the very last one */
 .nav-tabs_custom > *:not(:last-child) {
   border-right: 1px solid black;
+}
+
+.nav-item_custom {
+    font-size: 1.2rem;
+    padding: 0 2rem;
 }
 
 .nav-icons_custom {
@@ -42,11 +46,6 @@ override bootstrap CSS rules with the same name
 .contact-icons {
     max-width: 50%;
     height: auto;
-}
-
-.nav-item_custom {
-    font-size: 1.2rem;
-    padding: 0 2rem;
 }
 
 .nav-link {

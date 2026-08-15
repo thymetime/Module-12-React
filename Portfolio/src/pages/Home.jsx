@@ -16,7 +16,7 @@ export default function Home() {
       <section id="bio" class="bio-page">
 
           <content class="bio-info">
-              <img src="../assets/bio/OlyadKitila_Headshot_Size_Square.jpg" alt="Olyad Kitila, Developer." id="bio-img" class="bio-img" />
+              {/* <img src="../assets/bio/OlyadKitila_Headshot_Size_Square.jpg" alt="Olyad Kitila, Developer." id="bio-img" class="bio-img" /> */}
               <div class="bio-info--cont">
                   <h2 class="bio--greeting">Hi, I'm Olyad.</h2>
                   <p class="bio--desc">Olyad Kitila is a computer scientist and artist who is always 
