@@ -18,6 +18,7 @@ override bootstrap CSS rules with the same name
     font-weight: 400;
     letter-spacing: 1px;
     text-decoration: none;
+    line-height: 3.6rem;
 }
 
 .nav-tabs_custom {
@@ -47,7 +48,7 @@ override bootstrap CSS rules with the same name
 
 .contact-icons {
     max-width: 50%;
-    min-width: 3.2rem;
+    min-width: 1.6rem;
     height: auto;
     margin: 1rem auto; 
 }
