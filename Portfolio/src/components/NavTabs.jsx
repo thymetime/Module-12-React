@@ -35,7 +35,7 @@ function NavTabs() {
               to="/"
               className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
             >
-              {currentPage}
+              {currentPage}.slice(1).toUpperCase();
             </Link>            
             <span class='bx bxs-chevron-down htmlcss-arrow arrow  '>v</span>
             {/* nav-dropdown_sub-menu = "htmlCss-sub-menu sub-menu"> */}
@@ -45,7 +45,7 @@ function NavTabs() {
                   to="/Code"
                   className={currentPage === '/Code' ? 'nav-link active' : 'nav-link'}
                 >
-                  CODE
+                  {currentPage === '/Code' ? 'ABOUT' : 'CODE'}
                 </Link>
               </li>
               <li>
@@ -53,7 +53,8 @@ function NavTabs() {
                   to="/Art"
                   className={currentPage === '/Art' ? 'nav-link active' : 'nav-link'}
                 >
-                  ART
+                  {currentPage === '/Art' ? 'ABOUT' : 'ART'}
+
                 </Link>
               </li>
               <li>
@@ -61,7 +62,8 @@ function NavTabs() {
                   to="/Contact"
                   className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
                 >
-                  CONTACT
+                  {currentPage === '/Contact' ? 'ABOUT' : 'CONTACT'}
+
                 </Link>
               </li>
             </ul>
