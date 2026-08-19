@@ -68,9 +68,9 @@ override bootstrap CSS rules with the same name
 
 /* NAV MOBILE DDROPDOWN */
 
-.nav-tabs_custom {
+/* .nav-tabs_custom {
     display: none;
-}
+} */
 
 
 
@@ -81,7 +81,7 @@ override bootstrap CSS rules with the same name
 
 #nav-dropdown li{
   position: relative;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: space-between;
   list-style: none;
@@ -152,11 +152,11 @@ override bootstrap CSS rules with the same name
 
 @media screen and (max-width:845px){
     #nav-dropdown {
-        display: none;
+        display: flex;
     }
 
     .nav-tabs_custom {
-        display: flex;
+        display: none;
     }
 
     #nav-logo {
