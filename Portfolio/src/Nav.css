@@ -150,7 +150,7 @@ override bootstrap CSS rules with the same name
 }
 
 
-@media (max-width:845px){
+@media (min-width:845px){
     #nav-dropdown {
         display: none;
     }
