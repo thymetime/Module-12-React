@@ -79,9 +79,13 @@ override bootstrap CSS rules with the same name
 /*   height: 100%; */
 }
 
+#nav-dropdown {
+    display: none;
+}
+
 #nav-dropdown li{
   position: relative;
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   list-style: none;
