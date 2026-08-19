@@ -35,7 +35,7 @@ function NavTabs() {
               to="/"
               className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
             >
-              {currentPage}.toString().slice(1).toUpperCase();
+              currentPage.toString().slice(1).toUpperCase();
             </Link>            
             <span class='bx bxs-chevron-down htmlcss-arrow arrow  '>v</span>
             {/* nav-dropdown_sub-menu = "htmlCss-sub-menu sub-menu"> */}
