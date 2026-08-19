@@ -36,6 +36,7 @@ override bootstrap CSS rules with the same name
 .nav-item_custom {
     font-size: 1.2rem;
     padding: 0 2rem;
+    line-height: 0;
 }
 
 .nav-icons_custom {
@@ -48,9 +49,10 @@ override bootstrap CSS rules with the same name
 
 .contact-icons {
     max-width: 50%;
-    min-width: 1.6rem;
+    min-width: 2.4rem;
     height: auto;
     margin: 1rem auto; 
+    padding: 0;
 }
 
 .nav-link {
